@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+/.venv
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.pytest_cache/
+.cache
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+
+# mypy
+.mypy_cache/
+
+# Pyre
+.pyre/
+
+# pyenv
+python-version
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.*
+env.local
+env.*.local
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Docker
+docker-compose.override.yml
+*.dockerignore
+
+# FastAPI / Starlette specific
+instance/
+gunicorn_error.log
+
+# Static and media (if generated)
+staticfiles/
+media/
+
+# VS Code workspace storage
+.history/
