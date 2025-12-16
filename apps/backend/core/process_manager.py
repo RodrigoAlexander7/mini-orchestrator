@@ -1,4 +1,4 @@
-import subprocess
+import subprocess # set a process (from script to Operative System)
 from typing import Dict, Optional
 
 class ProcessManager:
